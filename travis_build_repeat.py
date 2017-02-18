@@ -10,7 +10,7 @@ def run():
         if build.restart():
             print("[{0}] Build {1} restarted.".format(r, repo.last_build_id))
         else:
-            print("[{0}]Unable to restart build.".format(r))
+            print("[{0}] Unable to restart build.".format(r))
 
 if __name__ == '__main__':
     run()
