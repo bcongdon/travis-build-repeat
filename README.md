@@ -9,21 +9,21 @@ Once setup, `travis-build-repeat` automatically restarts the latest build of you
 
 1. Clone the repo
 
-```
-https://github.com/bcongdon/travis-build-repeat
-```
+    ```
+    https://github.com/bcongdon/travis-build-repeat
+    ```
 
 2. Install dependencies
 
-```
-pip install -r requirements.txt
-```
+    ```
+    pip install -r requirements.txt
+    ```
 
 3. Copy `settings.py.template` to `settings.py`.
 
-```
-cp settings.py.template settings.py
-```
+    ```
+    cp settings.py.template settings.py
+    ```
 
 4. Create a Github access token [here](https://github.com/settings/tokens) with the following permissions:
     * read:org
