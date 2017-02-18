@@ -1,0 +1,4 @@
+TRAVIS_KEY = ''
+TRAVIS_REPOS = [
+    "my_user_name/my_awesome_repo"
+]

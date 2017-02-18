@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "apigateway_enabled": false,
+        "lambda_description": "Travis Build Repeater",
+        "s3_bucket": "zappa-j2ko84krc",
+        "keep_warm": false,
+        "events": [
+            {
+                "function": "travis_build_repeat.run",
+                "expression": "rate(1 day)"
+            }
+        ]
+    }
+}
